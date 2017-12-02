@@ -57,6 +57,7 @@ h2 {
 
  .myHeader {
  	min-height: 750px;
+ 	background-color: #f09c60;
  	background-image: url("../img/landscape.jpg");
  	background-repeat: no-repeat;
  	-webkit-background-size: cover;
