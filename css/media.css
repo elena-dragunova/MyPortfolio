@@ -1,0 +1,73 @@
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .myHeader {
+        min-height: 900px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    #mySkills .skills p {
+        font-size: 1.2rem;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .prev,
+    .next {
+        top: 100px;
+    }
+
+    footer .footer-contacts {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width : 540px) {
+    .bmenu {
+        width: 400px;
+        height: 400px;
+    }
+
+    .bmenu h1,
+    .bmenu li {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+ 
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+    #about .contacts p {
+        font-size: 1rem;
+   }
+
+    #about .contacts .fa {
+        padding-left: 0;
+    }
+
+}
+
+@media only screen and (max-width : 430px) {
+    .bmenu {
+        width: 300px;
+        height: 400px;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+
+    .myHeader {
+        min-height: 600px;
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+   
+}

@@ -1,0 +1,400 @@
+/* Общие стили */ 
+
+html {
+	font-size: 100%;
+}
+
+h1 {
+	font-family: "Merriweather", serif;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Merriweather", serif;
+	font-size: 2.25rem;
+	font-weight: 400;
+}
+ h3 {
+ 	font-family: "Merriweather", serif;
+	font-size: 1.875rem;
+	font-weight: 400;
+ }
+
+ h4 {
+ 	font-family: "Open Sans", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-align: center;
+ }
+
+ h5 {
+ 	font-family: "Open Sans", sans-serif;
+ 	font-weight: 400;
+ 	font-size: 1.25rem;
+ }
+
+ h6 {
+ 	font-family: "Open Sans", sans-serif;
+ 	font-weight: 400;
+ 	font-size: 1.125rem;
+ }
+
+ p {
+ 	font-family: "Open Sans", sans-serif;
+ 	font-weight: 400;
+ 	font-size: 1rem;
+ }
+
+ section {
+ 	padding: 5.938em 0;
+ }
+
+
+ /* Шапка */ 
+
+ .myHeader {
+ 	min-height: 750px;
+ 	background-image: url("../img/landscape.jpg");
+ 	background-repeat: no-repeat;
+ 	-webkit-background-size: cover;
+ 	background-size: cover;
+ 	background-position: center;
+ 	display: flex;
+ 	-ms-align-items: center;
+ 	align-items: center;
+ }
+
+ .bmenu{
+	padding: 50px 0px;
+	margin: 0 auto;
+	position: relative;
+	background: rgba(0,0,0,0.7);
+	width: 500px;
+	height: 500px;
+	-webkit-border-radius: 250px;
+	-moz-border-radius: 250px;
+	border-radius: 250px;
+	-webkit-transition: background-color 0.5s ease-in-out;
+	-moz-transition: background-color 0.5s ease-in-out;
+	-o-transition: background-color 0.5s ease-in-out;
+	-ms-transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
+}
+
+.bmenu:hover{
+	background: rgba(0,0,0,0.3);
+}
+
+.bmenu h1 {
+	color: #e26a6a;
+	line-height: 3.75rem;
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+.bmenu h4 {
+	color: #fff;
+	line-height: 2rem;
+	padding-top: 0.5em;
+}
+
+.bmenu ul {
+	padding-top: 1.5em;
+}
+
+.bmenu li{
+	font-size: 2.5rem;
+	display: block;
+	line-height: 3.75rem;
+}
+
+.bmenu li a{
+	white-space: nowrap;
+	color: transparent;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 3px #fff;
+	letter-spacing: 1px;
+	-moz-transform: scale(0.8); 
+	-ms-transform: scale(0.8); 
+	-o-transform: scale(0.8); 
+	-webkit-transform: scale(0.8); 
+	transform: scale(0.8);
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+.bmenu:hover h1 {
+	color: #fff;
+}
+
+.bmenu:hover li a{
+	text-shadow: 0px 0px 10px #fff;
+}
+.bmenu li a:hover{
+	text-shadow: none;
+	color: #fff;
+	background: rgba(226,106,106,0.8);
+	-moz-transform: scale(1); 
+	-ms-transform: scale(1); 
+	-o-transform: scale(1); 
+	-webkit-transform: scale(1); 
+	transform: scale(1); 
+}
+
+/* Секция Обо мне */ 
+
+#about {
+	background-color: #eee;
+	color: #334252;
+ }
+
+#about img {
+	margin: 3em auto;
+}
+
+#about h4{
+	font-weight: 400;
+}
+
+#about p {
+	text-align: center;
+	margin-top: 1em;
+	font-size: 1.25rem;
+}
+
+#about .contacts p {
+	font-family: "Merriweather", serif;
+	font-size: 1.5rem;
+}
+
+#about .contacts .fa {
+	color: #e26a6a;
+	padding-left: 1.875em;
+	padding-right: 0.625em;
+}
+
+#about a {
+	color: #334252;
+}
+
+#about a:hover,
+#about a:focus,
+#about a:active {
+	color: #334252;
+	text-decoration: none;
+}
+
+/* Секция Мои навыки */ 
+
+#mySkills {
+	background-color: #334252;
+	color: #eee;
+}
+
+#mySkills .skills {
+	margin-top: 4.75em;
+}
+
+#mySkills .skills img {
+	margin: 0 auto;
+}
+
+#mySkills .skills p {
+	font-family: "Merriweather", serif;
+	font-size: 1.875rem;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 0.8em;
+	margin-bottom: 2em;
+}
+
+/* Секция Мои работы */ 
+
+#myWorks {
+	background-color: #eee;
+	color: #334252;
+}
+
+.gallery {
+	margin-top: 1em;
+}
+
+.gallery img {
+	margin-top: 2em;
+	border: 1px solid #334252;
+}
+
+.gallery p {
+	margin: 1em 0;
+}
+
+.gallery a.mySite {
+	display: inline-block;
+	color: #e26a6a;
+	font-size: 1.25rem;
+	margin-top: 1em;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #e26a6a;
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+.gallery a:hover,
+.gallery a:focus,
+.gallery a:active {
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+}
+
+.img-container {
+	position: relative;
+}
+
+.gallery-image:hover:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #334252;
+	opacity: 0.75;
+	background-image: url('../img/button_plus.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding: 6.250em 0;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: #334252;
+}
+
+.modal-content {
+	position: relative;
+	background-color: #334252;
+	margin: auto;
+	padding: 0;
+	width: 90%;	
+	max-width: 1200px;
+}
+
+.close {
+	color: #eee;
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 2.25rem;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.myModals {
+	display: none;
+}
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 1em;
+	color: #eee;
+	margin-top: -50px;
+	font-weight: bold;
+	font-size: 1.375rem;
+	-webkit-transition: 0.6s ease;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	-webkit-user-select: none;
+	user-select: none;
+  	z-index: 2;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+	color: #eee;
+	font-size: 1em;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* Футер */ 
+
+footer {
+	background-color: #363636;
+	color: #eee;
+	padding: 3.125em 0;
+}
+
+footer h1 {
+	text-align: left;
+	font-size: 1.5rem;
+	text-transform: none;
+	padding-bottom: 0.2em;
+}
+
+footer h1:first-letter {
+	color: #e26a6a;
+}
+
+footer p {
+	font-size: 1.125em;
+	margin: 5px 0;
+}
+
+footer .footer-contacts .fa{
+	margin-right:15px;
+}
+
+footer .footer-contacts {
+	margin: 0 0 20px;
+}
+
+footer a {
+	color: #eee;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active {
+	color: #eee;
+	text-decoration: none;
+}
