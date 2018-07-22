@@ -396,3 +396,49 @@ footer a:active {
 	color: #eee;
 	text-decoration: none;
 }
+
+#myWorks h1 {
+	margin-bottom:15px;
+}
+
+#myWorks h4 {
+	margin-bottom:10px;
+}
+
+.individual-gallery h5,
+.individual-gallery h5 a {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.4rem;
+	font-weight: 700;
+	text-align: center;
+	color: #e26a6a;
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+
+.individual-gallery h5 a {
+	text-decoration: underline;
+}
+
+.individual-gallery .images	{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.individual-gallery .images a {
+	width:32%;
+	height:250px;
+	overflow: hidden;
+	margin-bottom:20px;
+	border: 1px solid #334252;
+}
+
+.individual-gallery .images a img {
+	width: 100%;
+	height:auto;
+}
+
+.fancybox-nav span {
+	visibility: visible;
+}
