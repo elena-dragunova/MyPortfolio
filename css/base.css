@@ -73,8 +73,8 @@ h2 {
 	margin: 0 auto;
 	position: relative;
 	background: rgba(0,0,0,0.7);
-	width: 550px;
-	height: 550px;
+	width: 450px;
+	height: 450px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
@@ -458,8 +458,8 @@ footer a:active {
 	background-image: url("../img/up.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	-webkit-background-size: 70%;
-	background-size:70%;
+	-webkit-background-size: 48%;
+	background-size: 48%;
 	cursor: pointer;
 	transition: all .5s ease;
 	z-index: 999;
